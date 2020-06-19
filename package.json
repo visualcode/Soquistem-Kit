@@ -1,0 +1,39 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "be6215d4-fb91-4c63-883d-f6898798801b",
+		"displayName": "Soquistem Kit"
+	},
+	"author": "Emanuele Livi",
+	"dependencies": {
+		"@fortawesome/fontawesome-pro": "^5.13.0",
+		"@fortawesome/fontawesome-svg-core": "^1.2.28",
+		"@fortawesome/pro-light-svg-icons": "^5.13.0",
+		"@fortawesome/pro-regular-svg-icons": "^5.13.0",
+		"@fortawesome/pro-solid-svg-icons": "^5.13.0",
+		"@fortawesome/react-fontawesome": "^0.1.11",
+		"@framer/benjamin.icon-generator": "^1.21.0",
+		"@framer/clayton.form-input": "^1.2.0",
+		"@framer/ctruansky.wrapping-lists": "^1.2.0",
+		"@framer/davidhellmann.font-awesome-free": "^1.3.0",
+		"@framer/edoardo.ios-kit": "^1.6.0",
+		"@framer/framer.base": "^1.1.0",
+		"@framer/framer.default": "^1.71.0",
+		"@framer/lada.simple-avatars-wip": "^1.3.0",
+		"@framer/marcopesani.font-awesome-free": "^1.1.0",
+		"@framer/maxsteitle.progress-bar": "^1.6.0",
+		"@framer/panr.button": "^1.6.0",
+		"@framer/rmarinac89.ios-notification": "^1.2.0",
+		"styled-components": "^5.1.1"
+	},
+	"name": "@framer/td4v8bho.soquistem-kit",
+	"version": "1.24.0"
+}

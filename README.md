@@ -1,0 +1,1 @@
+Kit for Soqua iOS app

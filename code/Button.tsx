@@ -1,13 +1,8 @@
 import * as React from "react"
 import { PropertyControls, ControlType } from "framer"
-import { FontAwesomeIcon } from "@fortawesome/fontawesome-pro"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core"
-// import { far } from "@fortawesome/pro-regular-svg-icons"
-import * as Icons from '@fortawesome/pro-light-svg-icons';
-// import * as Icons from '@fortawesome/pro-solid-svg-icons';
 import styled from "styled-components"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import * as Icons from "@fortawesome/pro-light-svg-icons"
 
 interface Props {
     weight: string
@@ -143,13 +138,6 @@ export class Button extends React.Component<Props> {
             title: "Outline",
         },
         isIcon: { type: ControlType.Boolean, title: "Show Icon" },
-        // icon: {
-        //     type: ControlType.String,
-        //     hidden: (props) => !props.isIcon,
-        //     title: "Icon Name",
-        // },
-
-
         icon: {
             type: ControlType.Enum,
             hidden: (props) => !props.isIcon,
@@ -259,6 +247,7 @@ export class Button extends React.Component<Props> {
                             color={this.props.color}
                             icon={Icons[this.props.icon]}
                             fixedWidth={true}
+                            fontSize={fontSize}
                         >
                             {icon}
                         </IconContainer>
@@ -277,4 +266,3 @@ export class Button extends React.Component<Props> {
         )
     }
 }
-//ciao

@@ -2,7 +2,7 @@ import * as React from "react"
 import { PropertyControls, ControlType } from "framer"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import * as Icons from "@fortawesome/pro-light-svg-icons"
+import * as Icons from "@fortawesome/pro-solid-svg-icons"
 
 interface Props {
     weight: string
@@ -33,7 +33,7 @@ interface Props {
         | "Tahoma"
         | "Times"
         | "Verdana"
-    fontSize: "12" | "14" | "16" | "18" | "20" | "22" | "24"
+    fontSize: "12" | "14" | "15" | "16" | "18" | "20" | "22" | "24"
     fontWeight:
         | "100"
         | "200"
@@ -48,6 +48,44 @@ interface Props {
     textTransform: "none" | "lowecase" | "uppercase"
     borderRadius: number
     borderWidth: number
+
+
+
+
+
+    // Extra options
+    hoverBackground: string
+    hoverTextColor: string
+    pressedBackground: any
+    pressedTextColor: any
+    disabledBackground: any
+    disabledTextColor: any
+    shadow: boolean
+    variant: string
+    onTap: any
+    radius: number
+    topLeft: number
+    topRight: number
+    bottomRight: number
+    bottomLeft: number
+    isMixed: boolean
+    paddingPerSide: boolean
+    padding: number
+    paddingTop: number
+    paddingRight: number
+    paddingBottom: number
+    paddingLeft: number
+    colorTransition: any
+    scaleTransition: any
+    whileTapScale: number
+    whileHoverScale: number
+    disabled: boolean
+    alignment: string
+    onClick?: any
+    onMouseEnter?: any
+    onMouseLeave?: any
+    onMouseDown?: any
+    onMouseUp?: any
 }
 
 const StyledButton = styled<Props, any>("button")`
@@ -99,15 +137,15 @@ const StyledText = styled<Props, any>("span")`
 `
 
 // DA CONSIDERARE
-// export class Light extends React.Component<Props> {
-//     // Set default properties
-//     static defaultProps = {
-//         icon: "faAddressBook",
-//         height: 24,
-//         width: 24,
-//         color: "rgba(150,150,150,1)",
-//     };
-// }
+export class Light extends React.Component<Props> {
+    // Set default properties
+    static defaultProps = {
+        icon: "faAddressBook",
+        height: 24,
+        width: 24,
+        color: "rgba(150,150,150,1)",
+    };
+}
 
 
 export class Button extends React.Component<Props> {
@@ -180,7 +218,7 @@ export class Button extends React.Component<Props> {
         },
         fontSize: {
             type: ControlType.Enum,
-            options: ["12", "14", "16", "18", "20", "22", "24"],
+            options: ["12", "14", "15", "16", "18", "20", "22", "24"],
             title: "Font Size",
         },
         fontWeight: {
@@ -231,6 +269,7 @@ export class Button extends React.Component<Props> {
             borderRadius,
             borderWidth,
         } = this.props
+
         return (
             <StyledButton
                 isPrimary={isPrimary}
@@ -241,17 +280,16 @@ export class Button extends React.Component<Props> {
                 borderWidth={borderWidth}
             >
                 <StyledButtonInner>
-                    {isIcon && (
-                        <IconContainer
-                            style={{ width: this.props.width, height: this.props.height }}
-                            color={this.props.color}
-                            icon={Icons[this.props.icon]}
-                            fixedWidth={true}
-                            fontSize={fontSize}
-                        >
-                            {icon}
+                    {isIcon && 
+                        <IconContainer fontSize={fontSize}>
+                            <FontAwesomeIcon
+                                // style={{ width: this.props.width, height: this.props.height }}
+                                color={this.props.color}
+                                icon={Icons[this.props.icon]}
+                                fixedWidth={true}
+                            />
                         </IconContainer>
-                    )}
+                    }
                     <StyledText
                         fontFamily={fontFamily}
                         fontSize={fontSize}

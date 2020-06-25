@@ -16799,74 +16799,6 @@
         "codeComponentProps" : {
           "backgroundColor" : "#03A9F4",
           "borderRadius" : 8,
-          "borderWidth" : 1,
-          "color" : "rgba(3, 169, 244, 1.00)",
-          "fontFamily" : "Helvetica",
-          "fontSize" : "16",
-          "fontWeight" : "400",
-          "icon" : "faPlay",
-          "isIcon" : true,
-          "isOutline" : true,
-          "isPrimary" : false,
-          "label" : "Hello Friend!",
-          "letterSpacing" : 2,
-          "textColor" : "white",
-          "textTransform" : "none"
-        },
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "duplicatedFrom" : [
-          "l_Lyt5vmS"
-        ],
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : false,
-        "fillImage" : null,
-        "fillImageOriginalName" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillType" : "color",
-        "height" : 44,
-        "heightType" : 0,
-        "id" : "LYIFqVPo6",
-        "intrinsicHeight" : 44,
-        "intrinsicWidth" : 160,
-        "left" : 1116,
-        "locked" : false,
-        "name" : null,
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "H6I94HGh7",
-        "previewSettings" : null,
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "right" : null,
-        "rotation" : 0,
-        "top" : 448,
-        "visible" : true,
-        "width" : 193,
-        "widthType" : 0
-      },
-      {
-        "__class" : "CodeComponentNode",
-        "aspectRatio" : null,
-        "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
-        "clip" : true,
-        "codeComponentIdentifier" : ".\/Button.tsx_Button",
-        "codeComponentPackageVersion" : "1.71.0",
-        "codeComponentProps" : {
-          "backgroundColor" : "#03A9F4",
-          "borderRadius" : 8,
           "borderWidth" : 2,
           "color" : "hsl(0, 0%, 100%)",
           "fontFamily" : "-apple-system",
@@ -16922,6 +16854,125 @@
         "top" : 532,
         "visible" : true,
         "width" : 193,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "clip" : true,
+        "codeComponentIdentifier" : "@framer\/framer.default\/.\/Button.tsx_Button",
+        "codeComponentPackageVersion" : "1.71.0",
+        "codeComponentProps" : {
+          "alignment" : "center",
+          "bottomLeft" : 10,
+          "bottomRight" : 10,
+          "colorTransition" : {
+            "damping" : 60,
+            "delay" : 0,
+            "duration" : 0.29999999999999999,
+            "ease" : [
+              0.44,
+              0,
+              0.56000000000000005,
+              1
+            ],
+            "mass" : 1,
+            "stiffness" : 500,
+            "type" : "spring"
+          },
+          "defaultBackground" : "#0099FF",
+          "defaultTextColor" : "#ffffff",
+          "disabled" : false,
+          "disabledBackground" : "#f3f3f3",
+          "disabledTextColor" : "#AAAAAA",
+          "font" : false,
+          "fontFamily" : "",
+          "fontSize" : 14,
+          "fontWeight" : 600,
+          "hoverBackground" : "#0077FF",
+          "hoverTextColor" : "#ffffff",
+          "isMixed" : false,
+          "padding" : 10,
+          "paddingBottom" : 0,
+          "paddingLeft" : 0,
+          "paddingPerSide" : false,
+          "paddingRight" : 0,
+          "paddingTop" : 0,
+          "pressedBackground" : "#0088FF",
+          "pressedTextColor" : "#ffffff",
+          "radius" : 10,
+          "scaleTransition" : {
+            "damping" : 30,
+            "delay" : 0,
+            "duration" : 0.29999999999999999,
+            "ease" : [
+              0.44,
+              0,
+              0.56000000000000005,
+              1
+            ],
+            "mass" : 1,
+            "stiffness" : 600,
+            "type" : "spring"
+          },
+          "shadow" : true,
+          "text" : "Hello Framer!",
+          "topLeft" : 10,
+          "topRight" : 10,
+          "variant" : "Default",
+          "whileHoverScale" : 1.1000000000000001,
+          "whileTapScale" : 0.94999999999999996
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "duplicatedFrom" : [
+          "wsBR8WjCk"
+        ],
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImageOriginalName" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 45,
+        "heightType" : 0,
+        "id" : "uC9Xm1FEv",
+        "intrinsicHeight" : 45,
+        "intrinsicWidth" : 135,
+        "left" : 1120,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "H6I94HGh7",
+        "previewSettings" : {
+          "__class" : "PreviewSettings",
+          "bezel" : false,
+          "responsive" : false,
+          "rotate" : false,
+          "touch" : true,
+          "zoom" : -1
+        },
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 680,
+        "visible" : true,
+        "width" : 135,
         "widthType" : 0
       },
       {
@@ -17282,6 +17333,470 @@
         ],
         "brightness" : 100,
         "brightnessEnabled" : 0,
+        "centerAnchorX" : 0.042777777777777776,
+        "centerAnchorY" : 0.016116035455278,
+        "children" : [
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "blur" : 12,
+            "blurEnabled" : 0,
+            "blurType" : "layer",
+            "borderBottom" : 1,
+            "borderColor" : "#222",
+            "borderEnabled" : 0,
+            "borderLeft" : 1,
+            "borderPerSide" : false,
+            "borderRight" : 1,
+            "borderStyle" : "solid",
+            "borderTop" : 1,
+            "borderWidth" : 1,
+            "bottom" : 0,
+            "boxShadows" : [
+              {
+                "__class" : "BoxShadow",
+                "blur" : 0,
+                "color" : "rgba(188, 187, 193, 1.00)",
+                "enabled" : true,
+                "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-i1XcZq11T-x-1001",
+                "inset" : true,
+                "spread" : 0,
+                "x" : 0,
+                "y" : -0.5
+              }
+            ],
+            "brightness" : 100,
+            "brightnessEnabled" : 0,
+            "centerAnchorX" : 0.57547169811320753,
+            "centerAnchorY" : 0.5,
+            "children" : [
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "blendingEnabled" : 0,
+                "blendingMode" : "normal",
+                "blur" : 12,
+                "blurEnabled" : 0,
+                "blurType" : "layer",
+                "borderBottom" : 1,
+                "borderColor" : "#222",
+                "borderEnabled" : 0,
+                "borderLeft" : 1,
+                "borderPerSide" : false,
+                "borderRight" : 1,
+                "borderStyle" : "solid",
+                "borderTop" : 1,
+                "borderWidth" : 1,
+                "bottom" : null,
+                "boxShadows" : [
+
+                ],
+                "brightness" : 100,
+                "brightnessEnabled" : 0,
+                "centerAnchorX" : 0.033828382838283828,
+                "centerAnchorY" : 0.59464285714285714,
+                "children" : [
+                  {
+                    "__class" : "TextNode",
+                    "autoSize" : true,
+                    "blur" : 12,
+                    "blurEnabled" : 0,
+                    "blurType" : "layer",
+                    "bottom" : null,
+                    "brightness" : 100,
+                    "brightnessEnabled" : 0,
+                    "centerAnchorX" : 0.5,
+                    "centerAnchorY" : 0.5,
+                    "clip" : true,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "contrast" : 100,
+                    "contrastEnabled" : 0,
+                    "duplicatedFrom" : [
+                      "@framer\/edoardo.ios-kit-R_DYf_4bg-S1jd]P?`"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "grayscale" : 0,
+                    "grayScaleEnabled" : 0,
+                    "height" : 22,
+                    "heightType" : 0,
+                    "hueRotate" : 0,
+                    "hueRotateEnabled" : 0,
+                    "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-HXrCIFB7S@framer\/edoardo.ios-kit-R_DYf_4bg-S1jd]P?`",
+                    "invert" : 0,
+                    "invertEnabled" : 0,
+                    "isTarget" : false,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/edoardo.ios-kit-sHoND5OKU-HXrCIFB7S",
+                    "right" : null,
+                    "rotation" : 0,
+                    "saturate" : 100,
+                    "saturateEnabled" : 0,
+                    "sepia" : 0,
+                    "sepiaEnabled" : 0,
+                    "shadows" : [
+
+                    ],
+                    "styledText" : {
+                      "__class" : "StyledTextDraft",
+                      "blocks" : [
+                        {
+                          "data" : {
+                            "emptyStyle" : [
+                              "ALIGN:left",
+                              "COLOR:rgb(0, 0, 0)",
+                              "FONT:__SF-UI-Text-Regular__",
+                              "LETTERSPACING:-0.41",
+                              "LINEHEIGHT:1.3",
+                              "SIZE:17"
+                            ]
+                          },
+                          "depth" : 0,
+                          "entityRanges" : [
+
+                          ],
+                          "inlineStyleRanges" : [
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "ALIGN:left"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "COLOR:rgb(0, 0, 0)"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Regular__"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "LETTERSPACING:-0.41"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "LINEHEIGHT:1.3"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "SIZE:17"
+                            }
+                          ],
+                          "key" : "emmg",
+                          "text" : "Body",
+                          "type" : "unstyled"
+                        }
+                      ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_15 framerx",
+                        "size" : {
+                          "height" : 22,
+                          "width" : 41
+                        },
+                        "width" : 0
+                      },
+                      "entityMap" : {
+
+                      }
+                    },
+                    "textVerticalAlignment" : "top",
+                    "top" : null,
+                    "visible" : true,
+                    "width" : 41,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "codeOverrideFile" : null,
+                "codeOverrideIdentifier" : null,
+                "codeOverrideName" : null,
+                "constraintsLocked" : false,
+                "contrast" : 100,
+                "contrastEnabled" : 0,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillLinearGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 180,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ]
+                },
+                "fillType" : "color",
+                "framePreset" : null,
+                "grayscale" : 0,
+                "grayScaleEnabled" : 0,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 22,
+                "heightType" : 0,
+                "hueRotate" : 0,
+                "hueRotateEnabled" : 0,
+                "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-HXrCIFB7S",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "invert" : 0,
+                "invertEnabled" : 0,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 0,
+                "locked" : false,
+                "name" : "Typography \/ Body",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "@framer\/edoardo.ios-kit-sHoND5OKU-i1XcZq11T",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "saturate" : 100,
+                "saturateEnabled" : 0,
+                "sepia" : 0,
+                "sepiaEnabled" : 0,
+                "top" : 0,
+                "visible" : true,
+                "width" : 41,
+                "widthType" : 0
+              }
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "codeOverrideFile" : null,
+            "codeOverrideIdentifier" : null,
+            "codeOverrideName" : null,
+            "constraintsLocked" : false,
+            "contrast" : 100,
+            "contrastEnabled" : 0,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255, 255, 255, 1.00)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
+            "fillType" : "color",
+            "framePreset" : null,
+            "grayscale" : 0,
+            "grayScaleEnabled" : 0,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 44,
+            "heightType" : 0,
+            "hueRotate" : 0,
+            "hueRotateEnabled" : 0,
+            "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-i1XcZq11T",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "invert" : 0,
+            "invertEnabled" : 0,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 16,
+            "locked" : false,
+            "name" : "Divider",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "@framer\/edoardo.ios-kit-sHoND5OKU",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : 0,
+            "rotation" : 0,
+            "saturate" : 100,
+            "saturateEnabled" : 0,
+            "sepia" : 0,
+            "sepiaEnabled" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 90,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "codeOverrideFile" : null,
+        "codeOverrideIdentifier" : null,
+        "codeOverrideName" : null,
+        "constraintsLocked" : true,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
+        "duplicatedFrom" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255, 255, 255, 1.00)",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImageOriginalName" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillLinearGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
+        },
+        "fillType" : "color",
+        "framePreset" : null,
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 44,
+        "heightType" : 0,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
+        "id" : "@framer\/edoardo.ios-kit-sHoND5OKU",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "isExternalMaster" : "@framer\/edoardo.ios-kit",
+        "isMaster" : true,
+        "isTarget" : false,
+        "left" : 0,
+        "locked" : false,
+        "name" : "Table Cells \/ Default",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "H6I94HGh7",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
+        "top" : 0,
+        "visible" : true,
+        "width" : 154,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
         "centerAnchorX" : 0.10416666666666667,
         "centerAnchorY" : 0.51018220793140412,
         "children" : [
@@ -17476,6 +17991,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 22,
+                              "width" : 41
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -18238,6 +18762,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 22,
+                              "width" : 41
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -19223,6 +19756,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 22,
+                              "width" : 41
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -19894,6 +20436,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<div class='DraftEditor-alignRight'><div data-offset-key=\"fa2hb-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"fa2hb-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:#8E8E93;font-size:17px;letter-spacing:-0.41px;line-height:1.2\"><span data-text=\"true\">Detail<\/span><\/span><\/div><\/div>",
+                "os" : "macos 10_15 framerx",
+                "size" : {
+                  "height" : 20,
+                  "width" : 45
+                },
+                "width" : 0
+              },
               "entityMap" : {
 
               }
@@ -20206,6 +20757,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 22,
+                              "width" : 41
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -20794,6 +21354,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div class='DraftEditor-alignRight'><div data-offset-key=\"fa2hb-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"fa2hb-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:#8E8E93;font-size:17px;letter-spacing:-0.41px;line-height:1.2\"><span data-text=\"true\">Detail<\/span><\/span><\/div><\/div>",
+                    "os" : "macos 10_15 framerx",
+                    "size" : {
+                      "height" : 20,
+                      "width" : 45
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -21191,6 +21760,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 22,
+                              "width" : 41
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -21779,6 +22357,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div class='DraftEditor-alignRight'><div data-offset-key=\"fa2hb-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"fa2hb-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:#8E8E93;font-size:17px;letter-spacing:-0.41px;line-height:1.2\"><span data-text=\"true\">Detail<\/span><\/span><\/div><\/div>",
+                    "os" : "macos 10_15 framerx",
+                    "size" : {
+                      "height" : 20,
+                      "width" : 45
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -22176,6 +22763,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 22,
+                              "width" : 41
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -22573,6 +23169,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div class='DraftEditor-alignRight'><div data-offset-key=\"fa2hb-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"fa2hb-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:#8E8E93;font-size:17px;letter-spacing:-0.41px;line-height:1.2\"><span data-text=\"true\">Detail<\/span><\/span><\/div><\/div>",
+                    "os" : "macos 10_15 framerx",
+                    "size" : {
+                      "height" : 20,
+                      "width" : 45
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -23161,6 +23766,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:15px;letter-spacing:-0.24px;line-height:1.3\"><span data-text=\"true\">Subhead<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 19,
+                              "width" : 62
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -23387,6 +24001,15 @@
                               "type" : "unstyled"
                             }
                           ],
+                          "cached" : {
+                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
+                            "os" : "macos 10_15 framerx",
+                            "size" : {
+                              "height" : 22,
+                              "width" : 41
+                            },
+                            "width" : 0
+                          },
                           "entityMap" : {
 
                           }
@@ -24052,6 +24675,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"fa2hb-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"fa2hb-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgba(0, 0, 0, 1.00);font-size:17px;letter-spacing:-0.41px;line-height:1.2\"><span data-text=\"true\">Text<\/span><\/span><\/div>",
+                "os" : "macos 10_15 framerx",
+                "size" : {
+                  "height" : 20,
+                  "width" : 33
+                },
+                "width" : 0
+              },
               "entityMap" : {
 
               }
@@ -24463,6 +25095,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSDisplay&quot;, &quot;SFProDisplay-Regular&quot;, &quot;SFUIDisplay-Regular&quot;, &quot;.SFUIDisplay&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:#111;font-size:28px;letter-spacing:0.36px;line-height:1.2\"><span data-text=\"true\">Title 1<\/span><\/span><\/div><\/div>",
+                "os" : "macos 10_15 framerx",
+                "size" : {
+                  "height" : 33,
+                  "width" : 76
+                },
+                "width" : 0
+              },
               "entityMap" : {
 
               }
@@ -24553,582 +25194,6 @@
         "top" : 0,
         "visible" : true,
         "width" : 72,
-        "widthType" : 0
-      },
-      {
-        "__class" : "CodeComponentNode",
-        "aspectRatio" : null,
-        "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
-        "clip" : true,
-        "codeComponentIdentifier" : "@framer\/framer.default\/.\/Button.tsx_Button",
-        "codeComponentPackageVersion" : "1.71.0",
-        "codeComponentProps" : {
-          "alignment" : "center",
-          "bottomLeft" : 10,
-          "bottomRight" : 10,
-          "colorTransition" : {
-            "damping" : 60,
-            "delay" : 0,
-            "duration" : 0.29999999999999999,
-            "ease" : [
-              0.44,
-              0,
-              0.56000000000000005,
-              1
-            ],
-            "mass" : 1,
-            "stiffness" : 500,
-            "type" : "spring"
-          },
-          "defaultBackground" : "#0099FF",
-          "defaultTextColor" : "#ffffff",
-          "disabled" : false,
-          "disabledBackground" : "#f3f3f3",
-          "disabledTextColor" : "#AAAAAA",
-          "font" : false,
-          "fontFamily" : "",
-          "fontSize" : 14,
-          "fontWeight" : 600,
-          "hoverBackground" : "#0077FF",
-          "hoverTextColor" : "#ffffff",
-          "isMixed" : false,
-          "padding" : 10,
-          "paddingBottom" : 0,
-          "paddingLeft" : 0,
-          "paddingPerSide" : false,
-          "paddingRight" : 0,
-          "paddingTop" : 0,
-          "pressedBackground" : "#0088FF",
-          "pressedTextColor" : "#ffffff",
-          "radius" : 10,
-          "scaleTransition" : {
-            "damping" : 30,
-            "delay" : 0,
-            "duration" : 0.29999999999999999,
-            "ease" : [
-              0.44,
-              0,
-              0.56000000000000005,
-              1
-            ],
-            "mass" : 1,
-            "stiffness" : 600,
-            "type" : "spring"
-          },
-          "shadow" : true,
-          "text" : "Hello Framer!",
-          "topLeft" : 10,
-          "topRight" : 10,
-          "variant" : "Default",
-          "whileHoverScale" : 1.1000000000000001,
-          "whileTapScale" : 0.94999999999999996
-        },
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "duplicatedFrom" : [
-          "wsBR8WjCk"
-        ],
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : false,
-        "fillImage" : null,
-        "fillImageOriginalName" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillType" : "color",
-        "height" : 45,
-        "heightType" : 0,
-        "id" : "uC9Xm1FEv",
-        "intrinsicHeight" : 45,
-        "intrinsicWidth" : 135,
-        "left" : 1120,
-        "locked" : false,
-        "name" : null,
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "H6I94HGh7",
-        "previewSettings" : null,
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "right" : null,
-        "rotation" : 0,
-        "top" : 680,
-        "visible" : true,
-        "width" : 135,
-        "widthType" : 0
-      },
-      {
-        "__class" : "FrameNode",
-        "aspectRatio" : null,
-        "blendingEnabled" : 0,
-        "blendingMode" : "normal",
-        "blur" : 12,
-        "blurEnabled" : 0,
-        "blurType" : "layer",
-        "borderBottom" : 1,
-        "borderColor" : "#222",
-        "borderEnabled" : 0,
-        "borderLeft" : 1,
-        "borderPerSide" : false,
-        "borderRight" : 1,
-        "borderStyle" : "solid",
-        "borderTop" : 1,
-        "borderWidth" : 1,
-        "bottom" : null,
-        "boxShadows" : [
-
-        ],
-        "brightness" : 100,
-        "brightnessEnabled" : 0,
-        "centerAnchorX" : 0.042777777777777776,
-        "centerAnchorY" : 0.016116035455278,
-        "children" : [
-          {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "blur" : 12,
-            "blurEnabled" : 0,
-            "blurType" : "layer",
-            "borderBottom" : 1,
-            "borderColor" : "#222",
-            "borderEnabled" : 0,
-            "borderLeft" : 1,
-            "borderPerSide" : false,
-            "borderRight" : 1,
-            "borderStyle" : "solid",
-            "borderTop" : 1,
-            "borderWidth" : 1,
-            "bottom" : 0,
-            "boxShadows" : [
-              {
-                "__class" : "BoxShadow",
-                "blur" : 0,
-                "color" : "rgba(188, 187, 193, 1.00)",
-                "enabled" : true,
-                "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-i1XcZq11T-x-1001",
-                "inset" : true,
-                "spread" : 0,
-                "x" : 0,
-                "y" : -0.5
-              }
-            ],
-            "brightness" : 100,
-            "brightnessEnabled" : 0,
-            "centerAnchorX" : 0.57547169811320753,
-            "centerAnchorY" : 0.5,
-            "children" : [
-              {
-                "__class" : "FrameNode",
-                "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
-                "blur" : 12,
-                "blurEnabled" : 0,
-                "blurType" : "layer",
-                "borderBottom" : 1,
-                "borderColor" : "#222",
-                "borderEnabled" : 0,
-                "borderLeft" : 1,
-                "borderPerSide" : false,
-                "borderRight" : 1,
-                "borderStyle" : "solid",
-                "borderTop" : 1,
-                "borderWidth" : 1,
-                "bottom" : null,
-                "boxShadows" : [
-
-                ],
-                "brightness" : 100,
-                "brightnessEnabled" : 0,
-                "centerAnchorX" : 0.033828382838283828,
-                "centerAnchorY" : 0.59464285714285714,
-                "children" : [
-                  {
-                    "__class" : "TextNode",
-                    "autoSize" : true,
-                    "blur" : 12,
-                    "blurEnabled" : 0,
-                    "blurType" : "layer",
-                    "bottom" : null,
-                    "brightness" : 100,
-                    "brightnessEnabled" : 0,
-                    "centerAnchorX" : 0.5,
-                    "centerAnchorY" : 0.5,
-                    "clip" : true,
-                    "codeOverrideEnabled" : false,
-                    "constraintsLocked" : false,
-                    "contrast" : 100,
-                    "contrastEnabled" : 0,
-                    "duplicatedFrom" : [
-                      "@framer\/edoardo.ios-kit-R_DYf_4bg-S1jd]P?`"
-                    ],
-                    "exportOptions" : [
-
-                    ],
-                    "grayscale" : 0,
-                    "grayScaleEnabled" : 0,
-                    "height" : 22,
-                    "heightType" : 0,
-                    "hueRotate" : 0,
-                    "hueRotateEnabled" : 0,
-                    "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-HXrCIFB7S@framer\/edoardo.ios-kit-R_DYf_4bg-S1jd]P?`",
-                    "invert" : 0,
-                    "invertEnabled" : 0,
-                    "isTarget" : false,
-                    "left" : null,
-                    "locked" : false,
-                    "name" : null,
-                    "opacity" : 1,
-                    "originalid" : null,
-                    "parentid" : "@framer\/edoardo.ios-kit-sHoND5OKU-HXrCIFB7S",
-                    "right" : null,
-                    "rotation" : 0,
-                    "saturate" : 100,
-                    "saturateEnabled" : 0,
-                    "sepia" : 0,
-                    "sepiaEnabled" : 0,
-                    "shadows" : [
-
-                    ],
-                    "styledText" : {
-                      "__class" : "StyledTextDraft",
-                      "blocks" : [
-                        {
-                          "data" : {
-                            "emptyStyle" : [
-                              "ALIGN:left",
-                              "COLOR:rgb(0, 0, 0)",
-                              "FONT:__SF-UI-Text-Regular__",
-                              "LETTERSPACING:-0.41",
-                              "LINEHEIGHT:1.3",
-                              "SIZE:17"
-                            ]
-                          },
-                          "depth" : 0,
-                          "entityRanges" : [
-
-                          ],
-                          "inlineStyleRanges" : [
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "ALIGN:left"
-                            },
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "COLOR:rgb(0, 0, 0)"
-                            },
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "FONT:__SF-UI-Text-Regular__"
-                            },
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "LETTERSPACING:-0.41"
-                            },
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "LINEHEIGHT:1.3"
-                            },
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "SIZE:17"
-                            }
-                          ],
-                          "key" : "emmg",
-                          "text" : "Body",
-                          "type" : "unstyled"
-                        }
-                      ],
-                      "cached" : {
-                        "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"emmg-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"emmg-0-0\" style=\"tab-size:4;user-select:none;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Body<\/span><\/span><\/div><\/div>",
-                        "os" : "macos 10_15 framerx",
-                        "size" : {
-                          "height" : 22,
-                          "width" : 41
-                        },
-                        "width" : 0
-                      },
-                      "entityMap" : {
-
-                      }
-                    },
-                    "textVerticalAlignment" : "top",
-                    "top" : null,
-                    "visible" : true,
-                    "width" : 41,
-                    "widthType" : 0
-                  }
-                ],
-                "clip" : false,
-                "codeOverrideEnabled" : false,
-                "codeOverrideFile" : null,
-                "codeOverrideIdentifier" : null,
-                "codeOverrideName" : null,
-                "constraintsLocked" : false,
-                "contrast" : 100,
-                "contrastEnabled" : 0,
-                "duplicatedFrom" : null,
-                "exportOptions" : [
-
-                ],
-                "fillColor" : "rgba(255,255,255,1)",
-                "fillEnabled" : false,
-                "fillImage" : null,
-                "fillImageOriginalName" : null,
-                "fillImagePixelHeight" : null,
-                "fillImagePixelWidth" : null,
-                "fillImageResize" : "fill",
-                "fillLinearGradient" : {
-                  "__class" : "LinearGradient",
-                  "alpha" : 1,
-                  "angle" : 180,
-                  "stops" : [
-                    {
-                      "__class" : "GradientColorStop",
-                      "position" : 0,
-                      "value" : "rgba(0,0,0,0)"
-                    },
-                    {
-                      "__class" : "GradientColorStop",
-                      "position" : 1,
-                      "value" : "black"
-                    }
-                  ]
-                },
-                "fillType" : "color",
-                "framePreset" : null,
-                "grayscale" : 0,
-                "grayScaleEnabled" : 0,
-                "guidesX" : [
-
-                ],
-                "guidesY" : [
-
-                ],
-                "height" : 22,
-                "heightType" : 0,
-                "hueRotate" : 0,
-                "hueRotateEnabled" : 0,
-                "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-HXrCIFB7S",
-                "intrinsicHeight" : null,
-                "intrinsicWidth" : null,
-                "invert" : 0,
-                "invertEnabled" : 0,
-                "isExternalMaster" : null,
-                "isMaster" : false,
-                "isTarget" : false,
-                "left" : 0,
-                "locked" : false,
-                "name" : "Typography \/ Body",
-                "opacity" : 1,
-                "originalid" : null,
-                "parentid" : "@framer\/edoardo.ios-kit-sHoND5OKU-i1XcZq11T",
-                "previewSettings" : null,
-                "radius" : 0,
-                "radiusBottomLeft" : 0,
-                "radiusBottomRight" : 0,
-                "radiusIsRelative" : false,
-                "radiusPerCorner" : false,
-                "radiusTopLeft" : 0,
-                "radiusTopRight" : 0,
-                "replicaInfo" : null,
-                "right" : null,
-                "rotation" : 0,
-                "saturate" : 100,
-                "saturateEnabled" : 0,
-                "sepia" : 0,
-                "sepiaEnabled" : 0,
-                "top" : 0,
-                "visible" : true,
-                "width" : 41,
-                "widthType" : 0
-              }
-            ],
-            "clip" : false,
-            "codeOverrideEnabled" : false,
-            "codeOverrideFile" : null,
-            "codeOverrideIdentifier" : null,
-            "codeOverrideName" : null,
-            "constraintsLocked" : false,
-            "contrast" : 100,
-            "contrastEnabled" : 0,
-            "duplicatedFrom" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255, 255, 255, 1.00)",
-            "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImageOriginalName" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillLinearGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 180,
-              "stops" : [
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 0,
-                  "value" : "rgba(0,0,0,0)"
-                },
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 1,
-                  "value" : "black"
-                }
-              ]
-            },
-            "fillType" : "color",
-            "framePreset" : null,
-            "grayscale" : 0,
-            "grayScaleEnabled" : 0,
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 44,
-            "heightType" : 0,
-            "hueRotate" : 0,
-            "hueRotateEnabled" : 0,
-            "id" : "@framer\/edoardo.ios-kit-sHoND5OKU-i1XcZq11T",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "invert" : 0,
-            "invertEnabled" : 0,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : 16,
-            "locked" : false,
-            "name" : "Divider",
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "@framer\/edoardo.ios-kit-sHoND5OKU",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "replicaInfo" : null,
-            "right" : 0,
-            "rotation" : 0,
-            "saturate" : 100,
-            "saturateEnabled" : 0,
-            "sepia" : 0,
-            "sepiaEnabled" : 0,
-            "top" : 0,
-            "visible" : true,
-            "width" : 90,
-            "widthType" : 0
-          }
-        ],
-        "clip" : true,
-        "codeOverrideEnabled" : false,
-        "codeOverrideFile" : null,
-        "codeOverrideIdentifier" : null,
-        "codeOverrideName" : null,
-        "constraintsLocked" : true,
-        "contrast" : 100,
-        "contrastEnabled" : 0,
-        "duplicatedFrom" : null,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255, 255, 255, 1.00)",
-        "fillEnabled" : true,
-        "fillImage" : null,
-        "fillImageOriginalName" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillLinearGradient" : {
-          "__class" : "LinearGradient",
-          "alpha" : 1,
-          "angle" : 180,
-          "stops" : [
-            {
-              "__class" : "GradientColorStop",
-              "position" : 0,
-              "value" : "rgba(0,0,0,0)"
-            },
-            {
-              "__class" : "GradientColorStop",
-              "position" : 1,
-              "value" : "black"
-            }
-          ]
-        },
-        "fillType" : "color",
-        "framePreset" : null,
-        "grayscale" : 0,
-        "grayScaleEnabled" : 0,
-        "guidesX" : [
-
-        ],
-        "guidesY" : [
-
-        ],
-        "height" : 44,
-        "heightType" : 0,
-        "hueRotate" : 0,
-        "hueRotateEnabled" : 0,
-        "id" : "@framer\/edoardo.ios-kit-sHoND5OKU",
-        "intrinsicHeight" : null,
-        "intrinsicWidth" : null,
-        "invert" : 0,
-        "invertEnabled" : 0,
-        "isExternalMaster" : "@framer\/edoardo.ios-kit",
-        "isMaster" : true,
-        "isTarget" : false,
-        "left" : 0,
-        "locked" : false,
-        "name" : "Table Cells \/ Default",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "H6I94HGh7",
-        "previewSettings" : null,
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "replicaInfo" : null,
-        "right" : null,
-        "rotation" : 0,
-        "saturate" : 100,
-        "saturateEnabled" : 0,
-        "sepia" : 0,
-        "sepiaEnabled" : 0,
-        "top" : 0,
-        "visible" : true,
-        "width" : 154,
         "widthType" : 0
       },
       {
